@@ -2,9 +2,93 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mohamed Sahamath</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Mohamed Sahamath</h1>
+
+<!-- Header -->
+<header class="navbar">
+    <div class="logo">Mohamed Sahamath</div>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+    <div class="hero-text">
+        <h1>Hello, I'm <span>Mohamed Sahamath</span></h1>
+        <h2>Software Engineering Student</h2>
+        <p>
+            I am Software Engineering Students Who have strong Foundation in java and web development
+        </p>
+        <a  class="btn">My CV</a>
+    </div>
+    <div class="hero-image">
+        <img src="my%20image.jpg" alt="Profile Image">
+    </div>
+</section>
+
+<!-- About Section -->
+<section class="about section" id="about">
+    <h2 class="section-title">About Me</h2>
+    <p>
+        I am Mohamed Sahamath From Sainthamaruthu and who is currently Living in Colombo. a passionate web developer who loves building attractive and
+        responsive websites. I enjoy turning ideas into real projects using
+        HTML, CSS, and JavaScript.
+    </p>
+</section>
+
+<!-- Skills Section -->
+<section class="skills section" id="skills">
+    <h2 class="section-title">My Skills</h2>
+    <div class="skills-container">
+        <div class="skill-card">HTML</div>
+        <div class="skill-card">CSS</div>
+        <div class="skill-card">JavaScript</div>
+        <div class="skill-card">Java</div>
+        <div class="skill-card">MySQL</div>
+        <div class="skill-card">Python</div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section class="projects section" id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="project-container">
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>A modern personal portfolio website using HTML and CSS.</p>
+        </div>
+        <div class="project-card">
+            <h3>Food Shop System</h3>
+            <p>A layered architecture system built with Java and JavaFX.</p>
+        </div>
+        <div class="project-card">
+            <h3>E-Commerce Website</h3>
+            <p>A E-Commerce Project which is build by html,css and js</p>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact section" id="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+</section>
+
 </body>
 </html>
